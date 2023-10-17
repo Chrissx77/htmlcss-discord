@@ -14,7 +14,6 @@ body {
 
 /* NAVBAR STYLE */
 header {
-    /* background-color: aqua; */
     background-image: url(../image/jumbo.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -34,24 +33,16 @@ header {
 }
 
 .navigation {
-    /* border: 3px dashed black; */
     padding: 5px 5px;
 }
 
-
 .logo {
     flex-basis: 25%;
-
-    /* DEBUG */
-    /* background-color: orange; */
 }
 
 .login {
     flex-basis: 25%;
     text-align: right;
-
-    /* DEBUG */
-    /* background-color: orange; */
 }
 
 .login>span {
@@ -60,7 +51,6 @@ header {
     font-size: 16px;
     border-radius: 15px;
     padding: 8px 11px;
-
 }
 
 .login>span:hover {
@@ -77,23 +67,13 @@ header {
     color: white;
     font-size: 15px;
     padding: 10px;
-
-
-    /* DEBUG */
-    /* background-color: orange; */
 }
 
 a:hover {
     color: rgb(59, 59, 59);
 }
 
-
-
 /* HERO STYLE */
-.hero-container {
-    /* background-color: darkblue; */
-}
-
 .hero-container>.container {
     width: 60%;
     margin: 0 auto;
@@ -105,11 +85,6 @@ a:hover {
     flex-basis: 100%;
     min-height: 530px;
     text-align: center;
-
-
-    /* DEBUG */
-    /* background-color: palevioletred; */
-    /* border: 3px dashed black; */
 }
 
 #hero p {
@@ -123,14 +98,12 @@ button {
     border-radius: 20px;
     padding: 10px 15px;
     margin: 0 20px;
-    /* cursor: pointer; */
 }
 
 #hero #open-browser {
     background-color: rgb(31, 30, 30);
     color: white;
 }
-
 
 #hero button:hover,
 #hero #open-browser:hover {
@@ -143,9 +116,6 @@ button>i {
     padding: 0 5px;
 }
 
-
-
-
 /* MAIN STYLE */
 main .container {
     display: flex;
@@ -156,22 +126,11 @@ main .container {
 .image-box {
     flex-basis: 75%;
     width: 750px;
-    /* height: 500px; */
     text-align: center;
-
-
-    /* DEBUG */
-    /* background-color: blue; */
-    /* border: 3px dashed black; */
 }
 
 .text-box {
     flex-basis: 25%;
-    /* height: 500px; */
-
-    /* DEBUG */
-    /* background-color: pink; */
-    /* border: 3px dashed black; */
 }
 
 .text-box-middle {
@@ -236,8 +195,6 @@ main .container {
 }
 
 
-
-
 /* FOOTER STYLE */
 footer {
     background-color: rgb(75, 75, 75);
@@ -272,8 +229,6 @@ footer .container:first-child {
     padding-top: 20px;
     padding-right: 10px;
 }
-
-
 
 .about {
     flex-basis: 75%;

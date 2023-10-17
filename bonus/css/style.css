@@ -14,7 +14,6 @@ body {
 
 /* NAVBAR STYLE */
 header {
-    /* background-color: aqua; */
     background-image: url(../image/jumbo.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -34,24 +33,17 @@ header {
 }
 
 .navigation {
-    /* border: 3px dashed black; */
     padding: 5px 5px;
 }
 
 
 .logo {
     flex-basis: 25%;
-
-    /* DEBUG */
-    /* background-color: orange; */
 }
 
 .login {
     flex-basis: 25%;
     text-align: right;
-
-    /* DEBUG */
-    /* background-color: orange; */
 }
 
 .login>span {
@@ -77,10 +69,6 @@ header {
     color: white;
     font-size: 15px;
     padding: 10px;
-
-
-    /* DEBUG */
-    /* background-color: orange; */
 }
 
 a:hover {
