@@ -95,9 +95,10 @@ button {
     background-color: white;
     font-family: "Whitney", ‘Helvetica Neue’, Helvetica, Arial, sans-serif;
     border: none;
-    border-radius: 20px;
-    padding: 10px 15px;
+    border-radius: 25px;
+    padding: 15px 20px;
     margin: 0 20px;
+    font-size: 20px;
 }
 
 #hero #open-browser {
