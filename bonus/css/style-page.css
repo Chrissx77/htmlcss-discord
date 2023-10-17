@@ -14,8 +14,8 @@ body {
 
 /* NAVBAR STYLE */
 header {
-    background-image: url(../image/jumbo.png);
-    background-size: contain;
+    background-image: url(../image/discord-marketing-gamers-esports.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
     color: white;
 }
