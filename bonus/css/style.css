@@ -155,10 +155,6 @@ main .container {
     margin: 0 auto;
 }
 
-.placeholder,
-main .container {
-    padding: 5px;
-}
 
 .placeholder {
     background-color: rgb(223, 223, 223);
