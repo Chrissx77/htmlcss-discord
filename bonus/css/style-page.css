@@ -16,6 +16,7 @@ body {
 header {
     background-image: url(../image/discord-marketing-gamers-esports.jpg);
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     color: white;
 }
@@ -76,7 +77,7 @@ a:hover {
 
 /* HERO STYLE */
 .hero-container>.container {
-    width: 60%;
+    width: 100%;
     margin: 0 auto;
     display: flex;
 }
@@ -86,6 +87,21 @@ a:hover {
     flex-basis: 100%;
     min-height: 530px;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    flex-basis: 33%;
+}
+
+.right{
+    flex-basis: 33%;
+}
+
+.empty{
+    flex-basis: 33%;
+    
 }
 
 #hero p {
