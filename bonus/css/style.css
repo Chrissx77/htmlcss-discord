@@ -1,0 +1,313 @@
+/* RESET STYLE */
+@import url('https://fonts.cdnfonts.com/css/whitney-2');
+
+:root {
+    font-family: "Whitney", ‘Helvetica Neue’, Helvetica, Arial, sans-serif;
+    font-size: 25px;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* NAVBAR STYLE */
+header {
+    /* background-color: aqua; */
+    background-image: url(../image/jumbo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#navBar {
+    display: flex;
+    min-height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation {
+    /* border: 3px dashed black; */
+    padding: 5px 5px;
+}
+
+
+.logo {
+    flex-basis: 25%;
+
+    /* DEBUG */
+    /* background-color: orange; */
+}
+
+.login {
+    flex-basis: 25%;
+    text-align: right;
+
+    /* DEBUG */
+    /* background-color: orange; */
+}
+
+.login>span {
+    background-color: white;
+    color: dimgray;
+    font-size: 16px;
+    border-radius: 15px;
+    padding: 8px 11px;
+
+}
+
+.login>span:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+
+}
+
+.link a {
+    flex-basis: 50%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+
+
+    /* DEBUG */
+    /* background-color: orange; */
+}
+
+a:hover {
+    color: rgb(59, 59, 59);
+}
+
+
+
+/* HERO STYLE */
+.hero-container {
+    /* background-color: darkblue; */
+}
+
+.hero-container>.container {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+}
+
+#hero {
+    margin: 50px 50px;
+    flex-basis: 100%;
+    min-height: 530px;
+    text-align: center;
+
+
+    /* DEBUG */
+    /* background-color: palevioletred; */
+    /* border: 3px dashed black; */
+}
+
+#hero p {
+    padding: 45px;
+}
+
+button {
+    background-color: white;
+    font-family: "Whitney", ‘Helvetica Neue’, Helvetica, Arial, sans-serif;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin: 0 20px;
+    /* cursor: pointer; */
+}
+
+#hero #open-browser {
+    background-color: rgb(31, 30, 30);
+    color: white;
+}
+
+
+#hero button:hover,
+#hero #open-browser:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+button>i {
+    padding: 0 5px;
+}
+
+
+
+
+/* MAIN STYLE */
+main .container {
+    display: flex;
+    margin: 50px auto;
+    justify-content: center;
+}
+
+.image-box {
+    flex-basis: 75%;
+    width: 750px;
+    /* height: 500px; */
+    text-align: center;
+
+
+    /* DEBUG */
+    /* background-color: blue; */
+    /* border: 3px dashed black; */
+}
+
+.text-box {
+    flex-basis: 25%;
+    /* height: 500px; */
+
+    /* DEBUG */
+    /* background-color: pink; */
+    /* border: 3px dashed black; */
+}
+
+.text-box-middle {
+    flex-basis: 25%;
+    height: 500px;
+    order: -1;
+}
+
+.image-box-foot {
+    width: 100%;
+}
+
+.image-box-foot img {
+    width: 1500px;
+}
+
+.text-end {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.placeholder,
+main .container {
+    padding: 5px;
+}
+
+.placeholder {
+    background-color: rgb(223, 223, 223);
+}
+
+.placeholder-end {
+    background-color: rgb(223, 223, 223);
+    padding-bottom: 100px;
+}
+
+.placeholder-end>.container {
+    flex-direction: column;
+    text-align: center;
+}
+
+.stars-main>h1 {
+    width: 50%;
+    margin: 0 auto;
+    background-image: url(../image/stars.svg);
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    padding-top: 40px;
+    font-size: 43px;
+    padding-bottom: 30px;
+}
+
+.stars-main button {
+    background-color: rgb(78, 106, 197);
+    color: white;
+}
+
+.stars-main button:hover {
+    background-color: rgb(25, 35, 66);
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+/* FOOTER STYLE */
+footer {
+    background-color: rgb(75, 75, 75);
+    font-size: smaller;
+}
+
+footer .container:first-child {
+    display: flex;
+    padding: 50px 0;
+    border-bottom: 1px solid dimgray;
+
+}
+
+.socials {
+    flex-basis: 25%;
+    color: white;
+}
+
+.socials>img {
+    width: 25px;
+}
+
+.socials>h3 {
+    color: rgb(87, 119, 223);
+}
+
+#social-icon {
+    padding-top: 20px;
+}
+
+#social-icon span {
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+
+
+.about {
+    flex-basis: 75%;
+    display: flex;
+    color: white;
+}
+
+.info {
+    flex-basis: 33%;
+}
+
+.info div {
+    padding: 10px 0;
+}
+
+.info div:first-child {
+    color: rgb(87, 119, 223);
+}
+
+.nav-footer {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-footer button {
+    margin: 20px 0;
+    font-size: 20px;
+    background-color: rgb(78, 106, 197);
+    color: white;
+
+}
+
+.nav-footer button:hover {
+    background-color: rgb(25, 35, 66);
+    cursor: pointer;
+}
