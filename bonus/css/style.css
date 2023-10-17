@@ -20,6 +20,7 @@ header {
     color: white;
 }
 
+
 .container {
     width: 80%;
     margin: 0 auto;
@@ -57,7 +58,7 @@ header {
     color: white;
     background-color: black;
     cursor: pointer;
-
+    box-shadow: 1px 3px 10px black;
 }
 
 .link a {
@@ -95,9 +96,10 @@ button {
     background-color: white;
     font-family: "Whitney", ‘Helvetica Neue’, Helvetica, Arial, sans-serif;
     border: none;
-    border-radius: 20px;
-    padding: 10px 15px;
+    border-radius: 25px;
+    padding: 15px 20px;
     margin: 0 20px;
+    font-size: 20px;
 }
 
 #hero #open-browser {
@@ -110,6 +112,7 @@ button {
     background-color: black;
     color: white;
     cursor: pointer;
+    box-shadow: 1px 3px 10px black;
 }
 
 button>i {
@@ -186,12 +189,14 @@ main .container {
 .stars-main button {
     background-color: rgb(78, 106, 197);
     color: white;
+    
 }
 
 .stars-main button:hover {
     background-color: rgb(25, 35, 66);
     color: white;
     cursor: pointer;
+    box-shadow: 1px 3px 10px black;
 }
 
 
@@ -230,6 +235,11 @@ footer .container:first-child {
     padding-right: 10px;
 }
 
+#social-icon span:hover {
+    color: rgb(87, 119, 223);
+    cursor: pointer;
+}
+
 .about {
     flex-basis: 75%;
     display: flex;
@@ -242,6 +252,11 @@ footer .container:first-child {
 
 .info div {
     padding: 10px 0;
+}
+
+.info div:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .info div:first-child {
@@ -265,4 +280,6 @@ footer .container:first-child {
 .nav-footer button:hover {
     background-color: rgb(25, 35, 66);
     cursor: pointer;
+    box-shadow: 1px 3px 10px black;
 }
+
