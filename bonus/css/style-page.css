@@ -1,0 +1,120 @@
+/* RESET STYLE */
+@import url('https://fonts.cdnfonts.com/css/whitney-2');
+
+:root {
+    font-family: "Whitney", ‘Helvetica Neue’, Helvetica, Arial, sans-serif;
+    font-size: 25px;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* NAVBAR STYLE */
+header {
+    background-image: url(../image/jumbo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#navBar {
+    display: flex;
+    min-height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation {
+    padding: 5px 5px;
+}
+
+.logo {
+    flex-basis: 25%;
+}
+
+.login {
+    flex-basis: 25%;
+    text-align: right;
+}
+
+.login>span {
+    background-color: white;
+    color: dimgray;
+    font-size: 16px;
+    border-radius: 15px;
+    padding: 8px 11px;
+}
+
+.login>span:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    box-shadow: 1px 3px 10px black;
+}
+
+.link a {
+    flex-basis: 50%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+}
+
+a:hover {
+    color: rgb(59, 59, 59);
+}
+
+/* HERO STYLE */
+.hero-container>.container {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+}
+
+#hero {
+    margin: 50px 50px;
+    flex-basis: 100%;
+    min-height: 530px;
+    text-align: center;
+}
+
+#hero p {
+    padding: 45px;
+}
+
+button {
+    background-color: white;
+    font-family: "Whitney", ‘Helvetica Neue’, Helvetica, Arial, sans-serif;
+    border: none;
+    border-radius: 25px;
+    padding: 15px 20px;
+    margin: 0 20px;
+    font-size: 20px;
+}
+
+#hero #open-browser {
+    background-color: rgb(31, 30, 30);
+    color: white;
+}
+
+#hero button:hover,
+#hero #open-browser:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    box-shadow: 1px 3px 10px black;
+}
+
+button>i {
+    padding: 0 5px;
+}
