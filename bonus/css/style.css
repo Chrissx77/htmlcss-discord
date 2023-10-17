@@ -74,6 +74,10 @@ a:hover {
     color: rgb(59, 59, 59);
 }
 
+a{
+    text-decoration: none;
+}
+
 /* HERO STYLE */
 .hero-container>.container {
     width: 60%;
