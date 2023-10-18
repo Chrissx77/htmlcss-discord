@@ -70,16 +70,20 @@ header {
     padding: 10px;
 }
 
-a:hover {
+.link:hover {
     color: rgb(59, 59, 59);
 }
 
-a {
+a{
     text-decoration: none;
 }
 
 a:visited {
     color: white;
+}
+
+a:hover{
+    color: black;
 }
 /* HERO STYLE */
 .hero-container>.container {
